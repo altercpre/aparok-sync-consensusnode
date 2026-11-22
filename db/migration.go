@@ -11,7 +11,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.uber.org/zap"
 
-	consensus "github.com/anyproto/any-sync-consensusnode"
+	consensus "github.com/altercpre/aparok-sync-consensusnode"
 )
 
 const (

@@ -1,7 +1,7 @@
 package stream
 
 import (
-	consensus "github.com/anyproto/any-sync-consensusnode"
+	consensus "github.com/altercpre/aparok-sync-consensusnode"
 	"sync"
 	"time"
 )

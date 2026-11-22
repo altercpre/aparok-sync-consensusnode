@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	consensus "github.com/anyproto/any-sync-consensusnode"
+	consensus "github.com/altercpre/aparok-sync-consensusnode"
 	"github.com/cheggaaa/mb/v3"
 	"go.uber.org/zap"
 )

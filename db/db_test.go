@@ -7,15 +7,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/consensus/consensusproto/consensuserr"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto/consensuserr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"storj.io/drpc/drpcerr"
 
-	consensus "github.com/anyproto/any-sync-consensusnode"
+	consensus "github.com/altercpre/aparok-sync-consensusnode"
 )
 
 var ctx = context.Background()

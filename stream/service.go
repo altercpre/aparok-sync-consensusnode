@@ -6,16 +6,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/app/ocache"
-	"github.com/anyproto/any-sync/consensus/consensusproto/consensuserr"
-	"github.com/anyproto/any-sync/metric"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/app/ocache"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto/consensuserr"
+	"github.com/altercpre/aparok-sync/metric"
 	"github.com/cheggaaa/mb/v3"
 	"go.uber.org/zap"
 
-	consensus "github.com/anyproto/any-sync-consensusnode"
-	"github.com/anyproto/any-sync-consensusnode/db"
+	consensus "github.com/altercpre/aparok-sync-consensusnode"
+	"github.com/altercpre/aparok-sync-consensusnode/db"
 )
 
 const CName = "consensus.stream"

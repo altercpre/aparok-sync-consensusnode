@@ -1,4 +1,4 @@
-//go:generate mockgen -destination mock_db/mock_db.go github.com/anyproto/any-sync-consensusnode/db Service
+//go:generate mockgen -destination mock_db/mock_db.go github.com/altercpre/aparok-sync-consensusnode/db Service
 package db
 
 import (
@@ -8,9 +8,9 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/consensus/consensusproto/consensuserr"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto/consensuserr"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
@@ -19,7 +19,7 @@ import (
 	"go.uber.org/zap"
 	"storj.io/drpc/drpcerr"
 
-	consensus "github.com/anyproto/any-sync-consensusnode"
+	consensus "github.com/altercpre/aparok-sync-consensusnode"
 )
 
 const CName = "consensus.db"

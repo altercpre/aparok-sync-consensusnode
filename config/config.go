@@ -3,19 +3,19 @@ package config
 import (
 	"os"
 
-	commonaccount "github.com/anyproto/any-sync/accountservice"
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/metric"
-	"github.com/anyproto/any-sync/net/rpc"
-	"github.com/anyproto/any-sync/net/secureservice"
-	"github.com/anyproto/any-sync/net/transport/quic"
-	"github.com/anyproto/any-sync/net/transport/yamux"
-	"github.com/anyproto/any-sync/nodeconf"
+	commonaccount "github.com/altercpre/aparok-sync/accountservice"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/metric"
+	"github.com/altercpre/aparok-sync/net/rpc"
+	"github.com/altercpre/aparok-sync/net/secureservice"
+	"github.com/altercpre/aparok-sync/net/transport/quic"
+	"github.com/altercpre/aparok-sync/net/transport/yamux"
+	"github.com/altercpre/aparok-sync/nodeconf"
 	"gopkg.in/yaml.v3"
 
-	"github.com/anyproto/any-sync-consensusnode/db"
-	"github.com/anyproto/any-sync-consensusnode/deletelog"
+	"github.com/altercpre/aparok-sync-consensusnode/db"
+	"github.com/altercpre/aparok-sync-consensusnode/deletelog"
 )
 
 const CName = "config"

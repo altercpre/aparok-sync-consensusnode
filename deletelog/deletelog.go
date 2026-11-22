@@ -5,15 +5,15 @@ import (
 	"errors"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/consensus/consensusproto/consensuserr"
-	"github.com/anyproto/any-sync/coordinator/coordinatorclient"
-	"github.com/anyproto/any-sync/coordinator/coordinatorproto"
-	"github.com/anyproto/any-sync/util/periodicsync"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto/consensuserr"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorclient"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorproto"
+	"github.com/altercpre/aparok-sync/util/periodicsync"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/any-sync-consensusnode/db"
+	"github.com/altercpre/aparok-sync-consensusnode/db"
 )
 
 const CName = "consensus.deletionLog"

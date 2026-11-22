@@ -1,10 +1,10 @@
-module github.com/anyproto/any-sync-consensusnode
+module github.com/altercpre/aparok-sync-consensusnode
 
 go 1.26.0
 
 require (
 	github.com/ahmetb/govvv v0.3.0
-	github.com/anyproto/any-sync v0.13.6
+	github.com/altercpre/aparok-sync v0.13.6
 	github.com/cheggaaa/mb/v3 v3.0.3
 	github.com/stretchr/testify v1.12.1
 	go.mongodb.org/mongo-driver v1.17.9
@@ -18,10 +18,10 @@ require (
 
 require (
 	filippo.io/edwards25519 v1.2.0 // indirect
-	github.com/anyproto/go-bip39 v1.0.0 // indirect
-	github.com/anyproto/go-chash v0.1.0 // indirect
-	github.com/anyproto/go-slip10 v1.0.1 // indirect
-	github.com/anyproto/go-slip21 v1.0.0 // indirect
+	github.com/altercpre/go-bip39 v1.0.0 // indirect
+	github.com/altercpre/go-chash v0.1.0 // indirect
+	github.com/altercpre/go-slip10 v1.0.1 // indirect
+	github.com/altercpre/go-slip21 v1.0.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash v1.1.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect

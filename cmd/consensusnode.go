@@ -11,27 +11,27 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/coordinator/coordinatorclient"
-	"github.com/anyproto/any-sync/coordinator/nodeconfsource"
-	"github.com/anyproto/any-sync/metric"
-	"github.com/anyproto/any-sync/net/peerservice"
-	"github.com/anyproto/any-sync/net/pool"
-	"github.com/anyproto/any-sync/net/rpc/server"
-	"github.com/anyproto/any-sync/net/secureservice"
-	"github.com/anyproto/any-sync/net/transport/quic"
-	"github.com/anyproto/any-sync/net/transport/yamux"
-	"github.com/anyproto/any-sync/nodeconf"
-	"github.com/anyproto/any-sync/nodeconf/nodeconfstore"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorclient"
+	"github.com/altercpre/aparok-sync/coordinator/nodeconfsource"
+	"github.com/altercpre/aparok-sync/metric"
+	"github.com/altercpre/aparok-sync/net/peerservice"
+	"github.com/altercpre/aparok-sync/net/pool"
+	"github.com/altercpre/aparok-sync/net/rpc/server"
+	"github.com/altercpre/aparok-sync/net/secureservice"
+	"github.com/altercpre/aparok-sync/net/transport/quic"
+	"github.com/altercpre/aparok-sync/net/transport/yamux"
+	"github.com/altercpre/aparok-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/nodeconf/nodeconfstore"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/any-sync-consensusnode/account"
-	"github.com/anyproto/any-sync-consensusnode/config"
-	"github.com/anyproto/any-sync-consensusnode/consensusrpc"
-	"github.com/anyproto/any-sync-consensusnode/db"
-	"github.com/anyproto/any-sync-consensusnode/deletelog"
-	"github.com/anyproto/any-sync-consensusnode/stream"
+	"github.com/altercpre/aparok-sync-consensusnode/account"
+	"github.com/altercpre/aparok-sync-consensusnode/config"
+	"github.com/altercpre/aparok-sync-consensusnode/consensusrpc"
+	"github.com/altercpre/aparok-sync-consensusnode/db"
+	"github.com/altercpre/aparok-sync-consensusnode/deletelog"
+	"github.com/altercpre/aparok-sync-consensusnode/stream"
 	// import this to keep govvv in go.mod on mod tidy
 	_ "github.com/ahmetb/govvv/integration-test/app-different-package/mypkg"
 	_ "go.uber.org/mock/gomock"
@@ -42,7 +42,7 @@ import (
 var log = logger.NewNamed("main")
 
 var (
-	flagConfigFile = flag.String("c", "etc/any-sync-consensusnode.yml", "path to config file")
+	flagConfigFile = flag.String("c", "etc/aparok-sync-consensusnode.yml", "path to config file")
 	flagVersion    = flag.Bool("v", false, "show version and exit")
 	flagHelp       = flag.Bool("h", false, "show help and exit")
 )

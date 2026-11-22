@@ -4,17 +4,17 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/coordinator/coordinatorclient"
-	"github.com/anyproto/any-sync/net/peerservice"
-	"github.com/anyproto/any-sync/net/pool"
-	"github.com/anyproto/any-sync/net/transport/quic"
-	"github.com/anyproto/any-sync/net/transport/yamux"
-	"github.com/anyproto/any-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorclient"
+	"github.com/altercpre/aparok-sync/net/peerservice"
+	"github.com/altercpre/aparok-sync/net/pool"
+	"github.com/altercpre/aparok-sync/net/transport/quic"
+	"github.com/altercpre/aparok-sync/net/transport/yamux"
+	"github.com/altercpre/aparok-sync/nodeconf"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-sync-consensusnode/db"
+	"github.com/altercpre/aparok-sync-consensusnode/db"
 )
 
 // Components run in registration order. A request that reached the db before db.Run connected to mongo

@@ -5,16 +5,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/coordinator/coordinatorclient"
-	"github.com/anyproto/any-sync/coordinator/coordinatorclient/mock_coordinatorclient"
-	"github.com/anyproto/any-sync/coordinator/coordinatorproto"
-	"github.com/anyproto/any-sync/testutil/anymock"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorclient"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorclient/mock_coordinatorclient"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorproto"
+	"github.com/altercpre/aparok-sync/testutil/anymock"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/anyproto/any-sync-consensusnode/db"
-	"github.com/anyproto/any-sync-consensusnode/db/mock_db"
+	"github.com/altercpre/aparok-sync-consensusnode/db"
+	"github.com/altercpre/aparok-sync-consensusnode/db/mock_db"
 )
 
 var ctx = context.Background()

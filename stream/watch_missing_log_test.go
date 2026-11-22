@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anyproto/any-sync/consensus/consensusproto/consensuserr"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto/consensuserr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	consensus "github.com/anyproto/any-sync-consensusnode"
+	consensus "github.com/altercpre/aparok-sync-consensusnode"
 )
 
 // A node creates a space log and watches it right away. A watch that does not find the log ends with

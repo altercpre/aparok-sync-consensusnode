@@ -5,13 +5,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/consensus/consensusproto/consensuserr"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto/consensuserr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	consensus "github.com/anyproto/any-sync-consensusnode"
-	"github.com/anyproto/any-sync-consensusnode/db"
+	consensus "github.com/altercpre/aparok-sync-consensusnode"
+	"github.com/altercpre/aparok-sync-consensusnode/db"
 )
 
 var ctx = context.Background()
