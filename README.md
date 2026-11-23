@@ -1,26 +1,26 @@
-# Any-Sync Consensus Node
+# Aparok Sync Consensus Node
 Implementation of consensus node from [`aparok-sync`](https://github.com/altercpre/aparok-sync) protocol.
 
 ## Building the source
 To ensure compatibility, please use Go version `1.22`.
 
-To build and run the Any-Sync Consensus Node on your own server, follow these technical steps:
+To build and run the Aparok Sync Consensus Node on your own server, follow these technical steps:
 
-1.  Clone the Any-Sync Consensus Node repository to your local machine.
+1.  Clone the Aparok Sync Consensus Node repository to your local machine.
 2.  Navigate to the root directory of the repository, where you will find a `Makefile`.
-3.  Run the following commands to install the required dependencies and build the Any-Sync Consensus Node.
+3.  Run the following commands to install the required dependencies and build the Aparok Sync Consensus Node.
     ```
     make deps
     make build
     ```
-4.  If there are no errors, the Any-Sync Consensus Node will be built and can be found in the `./bin` directory.
+4.  If there are no errors, the Aparok Sync Consensus Node will be built and can be found in the `./bin` directory.
 
 ## Running
-You will need a MongoDB in replica set mode to run Any-Sync Consensus Node.
+You will need a MongoDB in replica set mode to run Aparok Sync Consensus Node.
 
-Any-Sync Consensus Node requires a configuration. You can generate configuration files for your nodes with [`aparok-sync-network`](https://github.com/altercpre/aparok-sync-tools) tool.
+Aparok Sync Consensus Node requires a configuration. You can generate configuration files for your nodes with [`aparok-sync-network`](https://github.com/altercpre/aparok-sync-tools) tool.
 
-The following options are available for running the Any-Sync Consensus Node:
+The following options are available for running the Aparok Sync Consensus Node:
 
  - `-c` — path to config file (default `etc/aparok-sync-consensusnode.yml`). 
  - `-v` — current version.
